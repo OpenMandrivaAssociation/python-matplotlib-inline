@@ -27,3 +27,7 @@ Inline Matplotlib backend for Jupyter
 %files
 %license LICENSE
 %doc README.md
+%{python_sitelib}/matplotlib_inline-%{version}-py*.*.egg-info
+%{python_sitelib}/matplotlib_inline/__init__.py
+%{python_sitelib}/matplotlib_inline/backend_inline.py
+%{python_sitelib}/matplotlib_inline/config.py
