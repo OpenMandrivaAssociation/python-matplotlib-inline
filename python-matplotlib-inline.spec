@@ -1,7 +1,7 @@
 %define module matplotlib-inline
 Name:           python-matplotlib-inline
 Version:        0.1.6
-Release:        1
+Release:        2
 Summary:        Inline Matplotlib backend for Jupyter
 Group:          Development/Python
 License:        BSD
