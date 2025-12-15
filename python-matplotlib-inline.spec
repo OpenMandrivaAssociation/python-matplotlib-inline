@@ -10,7 +10,8 @@ Source0:        https://pypi.python.org/packages/source/m/%{module}/%{module}-%{
 BuildArch:      noarch
 
 BuildRequires:  pkgconfig(python)
-BuildRequires:  python3dist(wheel)
+BuildRequires:  python%{pyver}dist(wheel)
+BuildRequires:  python%{pyver}dist(setuptools)
 
 %description
 Inline Matplotlib backend for Jupyter
